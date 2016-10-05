@@ -1,22 +1,25 @@
+# -*- encoding:utf-8 -*-
+
+
 dementia = {
-	"definition":"""Dementia is the loss of cognitive functioning—thinking, remembering, and reasoning—and behavioral 
-					abilities to such an extent that it interferes with a person’s daily life and activities. Dementia ranges in severity 
-					from the mildest age, when it is just beginning to affect a person’s functioning, o the most severe stage, when the person 
-					must depend completely on others for basic activities of daily living.""",
-	"symptons":"""	Symptoms include forgetfulness, limited social skills, and thinking abilities so impaired that it interferes 
-				    with daily functioning."""
-	"cognitive":""" Memory loss, mental decline, confusion in the evening hours, disorientation, inability to speak or understand,
-			   	  	making things up, mental confusion, or inability to recognize common things.""",
-			   """  Behavioral:  irritability, personality changes, restlessness, lack of restraint, or wandering and getting lost.""",
-			   """	Mood: anxiety, loneliness, mood swings, or nervousness""",
-			   """	Psychological: depression, hallucination, or paranoia""",
-			   """	Muscular: inability to combine muscle movements or unsteady walking.""",
-			   """	Additional symptons: falling or jumbled speech.""",
+	"definition": """Dementia is the loss of cognitive functioning—thinking, remembering, and reasoning—and behavioral 
+					 abilities to such an extent that it interferes with a person’s daily life and activities. Dementia ranges in severity 
+					 from the mildest age, when it is just beginning to affect a person’s functioning of the most severe stage, when the person 
+					 must depend completely on others for basic activities of daily living.""",
+	"symptons":	  """Symptoms include forgetfulness, limited social skills, and thinking abilities so impaired that it interferes 
+				    with daily functioning.""",
+	"cognitive":  """Memory loss, mental decline, confusion in the evening hours, disorientation, inability to speak or understand,
+			   	  	 making things up, mental confusion, or inability to recognize common things.""",
+			      """Behavioral: irritability, personality changes, restlessness, lack of restraint, or wandering and getting lost."""
+			      """Mood: anxiety, loneliness, mood swings, or nervousness""",
+			      """Psychological: depression, hallucination, or paranoia""",
+			      """Muscular: inability to combine muscle movements or unsteady walking.""",
+			      """Additional symptons: falling or jumbled speech.""",
 "Types_of_Dementia":"""Alzhemier's disease, Vascular dementia, Dementia with Lewy bodies(DLB), Mixed dementia, Parkinson's disease, 
 					   Frontotemporal lobar degeneration(FTLD), Creutzfeldt-Jakob disease, Normal pressure, hydrocephalus""",		   
-},			   
+}		   
 
-Alzheimer’s_Disease = {
+Alzheimers_Disease = {
      "definition":"""Alzheimer’s disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, 
 					 eventually, the ability to carry out the simplest tasks. In most people with Alzheimer’s, symptoms first appear in their mid-60s. 
 					 Alzheimer’s disease is the most common cause of dementia among older adults.""",
@@ -32,7 +35,7 @@ Alzheimer’s_Disease = {
 				    they can detect early changes in the brains of people with MCI and in cognitively normal people who may be at greater risk for 
 				    Alzheimer’s. Studies indicate that such early detection may be possible, but more research is needed before these techniques can be 
 				    relied upon to diagnose Alzheimer's disease in everyday medical practice.""",
-"Types_of_Alzheimer's":"""Mild Alzheimer's Disease people experience greater memory loss and other cognitive difficulties. Problems can 
+"Types_of_Alzheimers":"""Mild Alzheimer's Disease people experience greater memory loss and other cognitive difficulties. Problems can 
 				    include wandering and getting lost, trouble handling money and paying bills, repeating questions, taking longer to complete normal 
 				    daily tasks, and personality and behavior changes. People are often diagnosed in this stage.,
 				    Moderate Alzheimer's Disease damage occurs in areas of the brain that control language, reasoning, sensory processing, 
@@ -106,7 +109,7 @@ Mixed_Dementia = {
 }
 
 Parkinsons = {
-	 "definition":"""Parkinson's disease dementia is an impairment in thinking and reasoning. The brain changes caused by Parkinson's disease begin in 
+	"definition":"""Parkinson's disease dementia is an impairment in thinking and reasoning. The brain changes caused by Parkinson's disease begin in 
 		 			a region that plays a key role in movement. As Parkinson's brain changes gradually spread, they often begin to affect mental functions, including 
 					memory and the ability to pay attention, make sound judgments and plan the steps needed to complete a task. The key brain changes linked to Parkinson's
 					disease and Parkinson's disease dementia are abnormal microscopic deposits composed chiefly of alpha-synuclein, a protein that's found widely in the 
@@ -126,15 +129,15 @@ Parkinsons = {
 
 Frontotemporal_Dementia(FTD) = {
 	"definition":"""Frontotemporal dementia (FTD) or frontotemporal degenerations refers to a group of disorders caused by progressive nerve cell loss in the 
-					 brain's frontal lobes (the areas behind your forehead) or its temporal lobes (the regions behind your ears). The nerve cell damage caused by frontotemporal 
-					 dementia leads to loss of function in these brain regions, which variably cause deterioration in behavior and personality, language disturbances, or alterations 
-					 in muscle or motor functions.""",
+					brain's frontal lobes (the areas behind your forehead) or its temporal lobes (the regions behind your ears). The nerve cell damage caused by frontotemporal 
+					dementia leads to loss of function in these brain regions, which variably cause deterioration in behavior and personality, language disturbances, or alterations 
+					in muscle or motor functions.""",
 	"diagnosis":""" Brain scans such as magnetic resonance imaging (MRI) and glucose positron emission scans are very helpful additional tests, but they must be 
 					interpreted in the context of the patient’s history and neurological exam. The diagnosis of bvFTD and PPA are based on expert evaluation by a doctor who is 
 					familiar with these disorders.""",
-	"causes":"""   Frontotemporal degenerations are inherited in about a third of all cases. Genetic counseling and testing is available now in individuals with family histories of frontotemporal degenerations. 
+	"causes":"""    Frontotemporal degenerations are inherited in about a third of all cases. Genetic counseling and testing is available now in individuals with family histories of frontotemporal degenerations. 
 				 	There are no known risk factors for any frontotemporal degenerations except for a family history or a similar disorder.""",
-	"Types_of_FTD":"""Behavior variant frontotemporal dementia (bvFTD). This condition is characterized by prominent changes in personality, interpersonal 
+  "Types_of_FTD":"""Behavior variant frontotemporal dementia (bvFTD). This condition is characterized by prominent changes in personality, interpersonal 
 				    relationships and conduct that often occur in people in their 50s and 60s, but can develop as early as their 20s or as late as their 80s. 
 				    In bvFTD, the nerve cell loss is most prominent in areas that control conduct, judgment, empathy and foresight, among other abilities. 
 				   	Primary progressive aphasia (PPA), is the second major form of frontotemporal degeneration that affects language skills, speaking, 
@@ -145,7 +148,7 @@ Frontotemporal_Dementia(FTD) = {
 				    Amyotrophic lateral sclerosis (ALS), which causes muscle weakness or wasting. ALS is a motor neuron disease also known as Lou 
 				    Gehrig’s disease. Corticobasal syndrome, which causes arms and legs to become uncoordinated or stiff. Progressive supranuclear palsy (PSP),
 				    which causes muscle stiffness, difficulty walking and changes in posture. It also affects eye movements."""
-	"treatments": """There are no specific treatments for any of the frontotemporal subtypes. There are medications that can reduce agitation, 
+	"treatments":"""There are no specific treatments for any of the frontotemporal subtypes. There are medications that can reduce agitation, 
 					irritability and/or depression. These treatments should be used to help improve quality of life.""",
 
 }		
@@ -188,4 +191,4 @@ Normal_Pressure_Hydrocephalus(NPH) = {
  	"treatments":"""NPH can sometimes be treated with surgical insertion of a shunt, a long, thin tube that drains excess CSF from the brain to the abdomen. 
 				 	Difficulty walking is the symptom most likely to improve after surgery. Thinking changes and bladder control are less likely to get better. 
 				 	Shunting doesn't help everyone with NPH, and there's uncertainty about how best to identify those most likely to benefit.""",
-	}
+}

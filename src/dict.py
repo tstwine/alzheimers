@@ -1,4 +1,6 @@
-class DementiaClass:
+#d.decode('utf-8')
+
+class DementiaClass():
 
 	import urllib2
 	import json
@@ -7,13 +9,17 @@ class DementiaClass:
 		pass
 
 
+		
 	def getDemCharactByOnset(self, onset):
 		api_call = DementiaClass.urllib2.urlopen('https://www.nia.nih.gov/alzheimers/topics/other-dementias')
 		json_string = api_call.read()
 		dementia_object = DementiaClass.json.loads(json_string)
 		api_call.close
 
-		return dementia_object
+	   return dementia_object
+
+print Dementia.getDemCharactByOnset('')
+
 
 	def getDemCharactByFamilyHistory(self, family_history):
 		api_call = DementiaClass.urllib2.urlopen('https://www.nia.nih.gov/alzheimers/topics/other-dementias')
@@ -386,6 +392,11 @@ Alzheimers = DementiaClass()
 
 
 print Alzheimers.getDemCharactByOnset('')	
+
+
+
+
+
 	
 
 

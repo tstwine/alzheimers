@@ -2,6 +2,8 @@ from flask import Flask, render_template, session, redirect, url_for
 from datetime import datetime
 from livereload import Server
 from flask import request
+from modules.dementia import *
+from modules.onset import *
 
 app = Flask(__name__)
 app.debug = True

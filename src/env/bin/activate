@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/tinastith-twine/Documents/Alzheimers/src/env"
+VIRTUAL_ENV="/Users/tinastith-twine/Documents/Dementia/Alzheimers/src/env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
