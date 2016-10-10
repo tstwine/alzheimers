@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{All About Alzheimer's}}</title>
+</head>
+<body>
+	<h1>{{ All About Alzheimer's }}</h1>
+<form action="/poll">
+	{% for e in data.fields %}
+		<input type="radio" name="field" value="{{ e }}"> {{ e }}<br>
+	{% endfor %}	
+	<input type="submit" value="Vote" />
+</form>		
+</body>
+</html>

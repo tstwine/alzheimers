@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+
 characteritics = {
    "onset":""" "The greatest risk factor for Alzheimer’s disease is advancing age, but Alzheimer’s is not a normal part of aging. 
 			    Most people with Alzheimer’s disease are diagnosed at age 65 or older. These individuals are said to have late-onset
@@ -20,7 +22,7 @@ characteritics = {
 					Alzheimer’s disease or other dementias is primarily explained by the fact that women live longer on
 					average than men. Many studies of the age specific incidence (development of new cases) of Alzheimer’s 
 					disease or any dementia have found no significant difference by gender. Thus, women are not more likely than 
-					   men to develop dementia at any given age" """,
+					men to develop dementia at any given age" """,
    "education":"""  "People with fewer years of education appear to be at higher risk for Alzheimer’s and other dementias than 
 					those with more years of education. Prevalence and incidence studies show that having fewer years of 
 					education is associated with a greater likelihood of having dementia and a greater risk of developing dementia.
@@ -29,7 +31,7 @@ characteritics = {
 					that the increased risk of dementia among those with lower educational attainment may be explained by other
 					factors common to people in lower socioeconomic groups, such as increased risk for disease in general and less
 					access to medical care." """,
-	"race":"""   "Most people in the United States living with Alzheimer’s and other dementias are non-Hispanic whites, 
-				  older African-Americans and Hispanics are proportionately more likely than older whites to have
-				  Alzheimer’s disease and other dementias." """,
+	"race":"""   	"Most people in the United States living with Alzheimer’s and other dementias are non-Hispanic whites, 
+				     older African-Americans and Hispanics are proportionately more likely than older whites to have
+				     Alzheimer’s disease and other dementias." """,
 }						

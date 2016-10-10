@@ -1,6 +1,5 @@
 # -*- coding:utf-8 -*-
 
-
 dementia = {
    "definition":""" "Dementia is the loss of cognitive functioning—thinking, remembering, and reasoning—and behavioral 
 					 abilities to such an extent that it interferes with a person’s daily life and activities. Dementia ranges in severity 
@@ -15,6 +14,7 @@ dementia = {
 			    """ "Psychological: depression, hallucination, or paranoia" """
 			    """ "Muscular: inability to combine muscle movements or unsteady walking." """
 			    """ "Additional symptons: falling or jumbled speech." """,
+},			    
 
 Alzheimers_Disease = {
      "definition":""" "Alzheimer’s disease is an irreversible, progressive brain disorder that slowly destroys memory and thinking skills and, 
@@ -48,27 +48,20 @@ Alzheimers_Disease = {
 },
 
 
-
-
-
-
-
-
-
 Vascular_Dementia = {
 	"definition":""" "Vascular dementia is considered the second most common form of dementia after Alzheimer’s disease, results from interrupted blood flow to the brain, often 
 					after a stroke or series of strokes. The symptoms can be similar to those of Alzheimer’s, and both conditions can occur at the same time. 
 					Inadequate blood flow can damage and eventually kill cells anywhere in the body results from conditions, such 
 					results from conditions, such as high blood pressure and high cholesterol, that can damage blood vessels in the brain.
-					as high blood pressure and high cholesterol, that can damage blood vessels in the brain." """
-	"diagnosis":""" "Individuals at highest risk include those who have had a stroke or a transient ischemic attack (TIA, also known as a "ministroke"). 
+					as high blood pressure and high cholesterol, that can damage blood vessels in the brain." """,
+	"diagnosis":""" "Individuals at highest risk include those who have had a stroke or a transient ischemic attack also known as a "ministroke". 
 					Additional high-risk groups include those with high blood pressure, high cholesterol, or other risk factors for heart or blood vessel disease.
 					A thorough medical history, including family history of dementia. Evaluation of independent function and daily activities, input from a family
 					member or trusted friend. In-office neurological examination assessing function of nerves and reflexes, movement, coordination, balance and senses.
-					Laboratory tests including blood tests and brain imaging." """	
+					Laboratory tests including blood tests and brain imaging." """,	
 	"symptons":"""  Symptoms can vary widely, depending on the severity of the blood vessel damage and the part of the brain affected. Memory loss may or may 
 			   	    not be a significant symptom depending on the specific brain areas where blood flow is reduced. Major symptons are confusion, disorientation, 
-			   	    trouble speaking or understanding speech, and vision loss."""
+			   	    trouble speaking or understanding speech, and vision loss." """,
 	"causes":"""    "The cause and risk factors are to keep your blood pressure, cholesterol and blood sugar within recommended limits. Eat a healthy, balanced diet, 
 					 don't smoke, exercise, maintain a healthy weight, and limit alcohol consumption." """,
 	"treatments":""" "Controlling risk factors that may increase the likelihood of further damage to the brain's blood vessels is an important treatment strategy. 
@@ -84,15 +77,14 @@ Dementia_with_Lewy_bodies = {
 	"symptons":"""     "Changes in thinking and reasoning, Confusion and alertness that varies significantly from one time of day to another or from 
 			 		   one day to the next, Parkinson's symptoms, such as a hunched posture, balance problems and rigid muscles, visual hallucinations, delusions, 
 			 		   trouble interpreting visual information, acting out dreams, sometimes violently, a problem known as rapid eye movement (REM) sleep disorder, 
-			 		   malfunctions of the "automatic" (autonomic) nervous system, and memory loss that may be significant but less prominent than in Alzheimer's."""
-        "causes":"""   "Researchers have not yet identified any specific causes of dementia with Lewy bodies. Most people diagnosed with DLB have no family history of 
-         			    the disorder, and no genes linked to DLB have been conclusively identified." """,
-      "treatments":"""  "There are no treatments that can slow or stop the brain cell damage caused by dementia with Lewy bodies." """ 
+			 		   malfunctions of the "automatic" (autonomic) nervous system, and memory loss that may be significant but less prominent than in Alzheimer's." """,
+       "causes":"""   "Researchers have not yet identified any specific causes of dementia with Lewy bodies." """, 
+      "treatments":"""  "There are no treatments that can slow or stop the brain cell damage caused by dementia with Lewy bodies." """, 
       "medications":""" "Medications used to treat DLB are Cholinesterase inhibitors drugs are the current mainstay for treating thinking changes in Alzheimer's. 
          			   	 They also may help certain DLB symptoms. Antipsychotic drugs are used for behavioral symptons that can occur in Alzheimer's. Antidepressants
          			   	 may be used to treat depression, which is common wtih DLB, Parkinson's disease dementia and Alzheimer's. Clonazepam may be prescribed to treat
-         			   	 REM sleep disorder." """
- },			   	  
+         			   	 REM sleep disorder." """,
+},			   	  
 
 Mixed_Dementia = {
 	"definition":""" "Mixed dementia is a condition in which abnormalities characteristic of more than one type of dementia occur simultaneously. 
@@ -111,7 +103,7 @@ Mixed_Dementia = {
     "causes":"""    "Mixed dementia is infrequently diagnosed during life, many researchers believe it deserves more attention because the combination of two 
 					 or more types of dementia-related brain changes may have a greater impact on the brain than one type alone. Evidence suggests that the 
 					 presence of more than one type of dementia-related change may increase the chances a person will develop symptoms." """,
-}
+},
 
 Parkinsons = {
    "definition":""" "Parkinson's disease dementia is an impairment in thinking and reasoning. The brain changes caused by Parkinson's disease begin in 
@@ -130,9 +122,9 @@ Parkinsons = {
  "treatments":"""   "cholinesterase inhibitors, antipsychotic drugs, L-dopa, antidepressants, clonazepam." """,
 		 			
 
-}
+},
 
-Frontotemporal_Dementia(FTD) = {
+Frontotemporal_Dementia = {
 	"definition":""" "Frontotemporal dementia (FTD) or frontotemporal degenerations refers to a group of disorders caused by progressive nerve cell loss in the 
 					 brain's frontal lobes (the areas behind your forehead) or its temporal lobes (the regions behind your ears). The nerve cell damage caused by frontotemporal 
 					 dementia leads to loss of function in these brain regions, which variably cause deterioration in behavior and personality, language disturbances, or alterations 
@@ -156,9 +148,9 @@ Frontotemporal_Dementia(FTD) = {
 "treatments":"""    "There are no specific treatments for any of the frontotemporal subtypes. There are medications that can reduce agitation, 
 					 irritability and/or depression. These treatments should be used to help improve quality of life." """,
 
-}		
+},		
 
-Creutzfeldt_Jakob_Disease(CJD) = {
+Creutzfeldt_Jakob_Disease = {
 	"definition":""" "Creutzfeldt-Jakob disease (CJD) is the most common human form of a group of rare, fatal brain disorders known as prion diseases.
 					  Creutzfeldt-Jakob disease causes a type of dementia that gets worse unusually fast. More common causes of dementia, such as Alzheimer's, 
 					  dementia with Lewy bodies and frontotemporal dementia, typically progress more slowly. Prion diseases, such as Creutzfeldt-Jakob disease, 
@@ -177,16 +169,16 @@ Creutzfeldt_Jakob_Disease(CJD) = {
 					  other prion diseases. Various drugs have been tested but have not shown any benefit. Clinical studies of potential CJD treatments 
 					  are complicated by the rarity of the disease and its rapid progression." """,     
 
-}
+},
 
-Normal_Pressure_Hydrocephalus(NPH) = {
+Normal_Pressure_Hydrocephalus = {
  "definition":""" "Normal Pressure Hydrocephalus is a brain disorder in which excess cerebrospinal fluid Normal pressure hydrocephalus is a 
 			       brain disorder in which excess cerebrospinal fluid. Normal pressure hydrocephalus occurs when excess cerebrospinal fluid accumulates in 
 			   	   the brain's ventricles, which are hollow fluid-filled chambers. NPH is called "normal pressure" because despite the excess fluid, cerebrospinal
 			 	   fluid pressure as measured during a spinal tap is often normal. As brain ventricles enlarge with the excess cerebrospinal fluid, they can 
 			 	   disrupt and damage nearby brain tissue." """,
 "diagnosis":"""   "There is no single test to determine if someone has normal pressure hydrocephalus. And even though the three hallmark symptoms 
-			 		listed above are considered the "classic" signs of this disorder, not everyone with NPH has all of these symptoms.""",
+			 	   listed above are considered the "classic" signs of this disorder, not everyone with NPH has all of these symptoms.
   "symptons:"""   "Difficulty walking that's sometimes compared to the way a person walks '"on a boat," with the body bent forward" """, 
 			   	   legs held wide apart and feet moving as if they're "glued to the deck. Decline in thinking skills that includes overall slowing of thought processes, 
 			   	   apathy, impaired planning and decision-making, reduced concentration and changes in personality and behavior. Loss of bladder control, which tends to 
@@ -196,4 +188,4 @@ Normal_Pressure_Hydrocephalus(NPH) = {
  "treatments":""" "NPH can sometimes be treated with surgical insertion of a shunt, a long, thin tube that drains excess CSF from the brain to the abdomen. 
 				   Difficulty walking is the symptom most likely to improve after surgery. Thinking changes and bladder control are less likely to get better. 
 				   Shunting doesn't help everyone with NPH, and there's uncertainty about how best to identify those most likely to benefit." """,
-}
+},

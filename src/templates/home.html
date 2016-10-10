@@ -1,35 +1,15 @@
-
-{% extends "base.html" %}
-{% block content %}
-
-
+<html>
+<head>
+	<title>{{ demetia.question }}</title>
+</head>
 <body>
-{% if error_message %}
-{{ error_message }}
-{% endif %}
+	<h1>{{ dementia.question }}</h1>
+	<form action='/information'>
+		{% for e in dementia.fields %}
+			<input type="radio" name="field" value="{{ e }}"> {{ e }}<br>
+		{% endfor %}
+			<input type="submit" value="Vote" />
 
-<div class="container col-md-4 col-md-offset-4" style="padding: 80px;">
-<form action="/search" method="POST">
-	<div class="form-group">
-	<label>Address Line 1</label>
-	<input type="text" name="addressLine1"><br>
-	<label>Address Line 2</label>
-	<input type="text" name="addressLine2"><br>
-	<label>City</label>
-	<input type="text" name="city">
-	<label>State</label>
-	<input type="text" name="state">
-	<label>Zip Code</label>
-	<input class= "form-control" "type=number" name="zipCode"><br>
-	<input type="number" name="zipCode"><br>
-	<input class="btn btn-primary btn-lg push-right" type="submit" value="Submit">
-	
-				</div>
-
-		</form>
-
-	</body>
-
-</div>
-
-{% endblock %}
+</form>			
+</body>
+</html>
