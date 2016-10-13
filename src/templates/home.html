@@ -1,15 +1,26 @@
 <html>
 <head>
-	<title>{{ demetia.question }}</title>
+	<title>{{ dementia.question }}</title>
 </head>
 <body>
 	<h1>{{ dementia.question }}</h1>
-	<form action='/information'>
+	<form action='/information/characteristics'>
 		{% for e in dementia.fields %}
 			<input type="radio" name="field" value="{{ e }}"> {{ e }}<br>
 		{% endfor %}
-			<input type="submit" value="Vote" />
+			<input type="submit" value="Submit" />
 
 </form>			
+
+	<h1>{{ alzheimers.question }}</h1>
+	<form action='/information/alzheimers'>
+		{% for e in alzheimers.fields %}
+			<input type="radio" name="field" value="{{ e }}"> {{ e }}<br>
+		{% endfor %}
+			<input type="submit" value="Submit" />
+
+</form>			</h1>
+
+
 </body>
 </html>
